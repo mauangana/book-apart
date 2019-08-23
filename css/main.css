@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton&display=swap');
+
+.primary-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/p1.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 50px;
+}
+
+.box {
+  padding: 40px 10px !important;
+}
+
+.box h4 {
+  padding-bottom: 30px;
+}
+
+.section-boxes .row {
+  margin-bottom: 0 !important;
+}
+
+.section-contact {
+  position: relative;
+}
+
+.section-contact .card-panel {
+  position: relative;
+  z-index: 1;
+}
+
+#googlemap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+@media (max-width: 600px) {
+  .main-header {
+    height: 50vh;
+  }
+  
+
+}
+nav{
+  background: rgba(0, 0, 0, 0.5)
+}
+.brand-logo{
+  font-family: anton;
+}
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+}
+.section-search h3{
+  font-family: anton;
+}
+.main-text h1{
+  font-family: anton;
+}
+
+.section-icons h4{
+  font-family: anton;
+}
+.section-icons p{
+  font-size: 20px !important;
+}
+.section-testimonials h2{
+  font-family: anton;
+}
+.card-action p{
+  font-size: 20px !important;
+}
+.section-gallery h4{
+  font-family: anton;
+}
+.section-follow h4{
+  font-family: anton;
+}
+.section-follow .flow-text{
+  font-size: 20px !important;
+}
+footer p .font{
+  font-family: anton;
+}
+
+/* login modal */
+.modal { 
+  width: 25% ; height: 50% ;
+}
+.modal form{
+ padding-top: 5px;
+}
+.modal form a{
+  width: 50%;
+ }
+#login-modal h4 { 
+  padding-top: 20%;
+  font-family: anton;
+}
+.modal .btn1
+{
+  width: 75%;
+}
+/* user log in modal */
+
+#user .modal { 
+  width: 25% !important ; height: 50% !important ;
+}
+#user .modal form{
+ padding-top: 5px;
+}
+#user .modal form a{
+  width: 50%;
+ }
+#user h4 { 
+   font-family: anton;
+}
+
+.input-field input:focus + label {
+  color: #00bcd4 !important;
+  font-family: anton !important; 
+}
+/* label underline focus color */
+.input-field input:focus {
+  border-bottom: 1px solid #00bcd4 !important;
+  box-shadow: 0 1px 0 0 #00bcd4 !important
+}
+.input-field {
+  font-family: anton !important; 
+  color: #00bcd4;
+}
+#admin h4 { 
+  font-family: anton;
+}
+@media (min-width: 250px) {
+  .modal { 
+    width: 75% ; height: 50% ;
+  }
+}
+@media (min-width: 300px) {
+  .modal { 
+    width: 75% ; height: 50% ;
+  }
+  .main-header{
+    min-width: 50vh;
+  }
+}
+@media (min-width: 360px) {
+  .modal { 
+    width: 75% ; height: 50% ;
+  }
+}
+@media (min-width: 375px) {
+  .modal { 
+    width: 75% ; height: 50% ;
+  }
+}
+
+@media (min-width: 768px) {
+    .modal { 
+      width: 50% ; height: 35% ;
+    }
+
+}
+@media (min-width: 1070px) {
+  .modal { 
+    width: 25% ; height: 50% ;
+  }
+
+}

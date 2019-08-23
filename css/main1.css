@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Anton&display=swap');
+
+
+nav{
+    background: rgba(0, 0, 0, 0.5)
+  }
+  .brand-logo{
+    font-family: anton;
+  }
+
+  .main-text h1{
+    font-family: anton;
+  }
+
+.primary-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-header {
+  background: url(../img/p2.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  color: #fff;
+  position: relative;
+}
+
+.main-header .showcase {
+  padding-top: 50px;
+}
+.section-signup h4{
+  font-family: anton;
+}
+.section-signup p{
+    font-size: 20px;
+}
+
+.input-field input:focus + label {
+    color: #00bcd4 !important;
+    font-family: anton !important; 
+}
+  /* label underline focus color */
+  .input-field input:focus {
+    border-bottom: 1px solid #00bcd4 !important;
+    box-shadow: 0 1px 0 0 #00bcd4 !important
+}
+.input-field {
+    font-family: anton !important; 
+    color: #00bcd4;
+}
+
+.section-follow h4{
+    font-family: anton;
+  }
+  .section-follow .flow-text{
+    font-size: 20px !important;
+  }
+  footer p .font{
+    font-family: anton;
+  }
+
+  .modal { 
+    width: 25%; height: 50% ;
+  }
+  .modal form{
+   padding-top: 5px;
+  }
+  .modal form a{
+    width: 50%;
+   }
+   .modal .btn1{
+  width: 75%;
+  }
+
+  #login-modal h4 { 
+    padding-top: 20%;
+    font-family: anton;
+  }
+  
+  /* user log in modal */
+  
+  #user .modal { 
+    width: 25% !important ; height: 50% !important ;
+  }
+  #user .modal form{
+   padding-top: 5px;
+  }
+  #user .modal form a{
+    width: 50%;
+   }
+  #user h4 { 
+     font-family: anton;
+  }
+  #admin h4 { 
+    font-family: anton;
+  }
+  @media (min-width: 250px) {
+    .modal { 
+      width: 75% ; height: 50% ;
+    }
+  }
+  @media (min-width: 300px) {
+    .modal { 
+      width: 75% ; height: 50% ;
+    }
+  }
+  @media (min-width: 360px) {
+    .modal { 
+      width: 75% ; height: 50% ;
+    }
+  }
+  @media (min-width: 375px) {
+    .modal { 
+      width: 75% ; height: 50% ;
+    }
+  }
+  
+  @media (min-width: 768px) {
+      .modal { 
+        width: 50% ; height: 35% ;
+      }
+  
+  }
+  @media (min-width: 1070px) {
+    .modal { 
+      width: 25% ; height: 50% ;
+    }
+  
+  }
+  
